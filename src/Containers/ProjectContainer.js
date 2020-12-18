@@ -15,7 +15,19 @@ class ProjectContainer extends React.Component{
         console.log(projectRows)
         return(
         <Container>
-
+            {projectRows.map(r =>  {
+                    return(
+                        <Row>
+                            {r.map(c =>{
+                                return(
+                                    <Col>
+                                    <Project {...c} />
+                                    </Col>
+                                )
+                            })}
+                        </Row> 
+                    )
+            })}
 
         </Container>
 

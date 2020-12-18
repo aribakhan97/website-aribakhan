@@ -5,14 +5,14 @@ class Project extends React.Component {
     render(){
         return(
             <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src={this.props.img} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>{this.props.Name} </Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      {this.props.text}
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button onClick ={()=> this.props.demo} variant="primary">Demo </Button>
+    <Button onClick ={() => this.props.github}> GitHub Link</Button>
   </Card.Body>
 </Card>
         )
