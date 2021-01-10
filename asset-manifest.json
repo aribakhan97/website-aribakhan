@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22cfb415.chunk.css",
+    "main.js": "/static/js/main.c0e308e9.chunk.js",
+    "main.js.map": "/static/js/main.c0e308e9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.64119c51.js",
+    "runtime-main.js.map": "/static/js/runtime-main.64119c51.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.c892bd44.chunk.js": "/static/js/2.c892bd44.chunk.js",
+    "static/js/2.c892bd44.chunk.js.map": "/static/js/2.c892bd44.chunk.js.map",
+    "static/js/3.b802bd55.chunk.js": "/static/js/3.b802bd55.chunk.js",
+    "static/js/3.b802bd55.chunk.js.map": "/static/js/3.b802bd55.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.22cfb415.chunk.css.map": "/static/css/main.22cfb415.chunk.css.map",
+    "static/js/2.c892bd44.chunk.js.LICENSE.txt": "/static/js/2.c892bd44.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.f8ac6b4a.jpg",
+    "static/media/care.71425ad5.png": "/static/media/care.71425ad5.png",
+    "static/media/finance.2df2f91c.png": "/static/media/finance.2df2f91c.png",
+    "static/media/flatiron.55ab5d2c.png": "/static/media/flatiron.55ab5d2c.png",
+    "static/media/frigenhungry.662c31da.png": "/static/media/frigenhungry.662c31da.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64119c51.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.c892bd44.chunk.js",
+    "static/css/main.22cfb415.chunk.css",
+    "static/js/main.c0e308e9.chunk.js"
+  ]
+}
