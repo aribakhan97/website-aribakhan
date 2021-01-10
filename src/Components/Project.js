@@ -11,8 +11,8 @@ class Project extends React.Component {
     <Card.Text>
       {this.props.text}
     </Card.Text>
-    <Button onClick ={()=> this.props.demo} variant="primary">Demo </Button>
-    <Button onClick ={() => this.props.github}> GitHub Link</Button>
+    <Button href={this.props.demo} target="_blank" rel="noopener noreferrer" variant="primary">Demo </Button>
+    <Button href={this.props.github} target="_blank" rel="noopener noreferrer"> GitHub Link</Button>
   </Card.Body>
 </Card>
         )
