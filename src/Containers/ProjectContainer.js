@@ -20,7 +20,7 @@ class ProjectContainer extends React.Component{
                         <Row>
                             {r.map(c =>{
                                 return(
-                                    <Col>
+                                    <Col md='auto'>
                                     <Project {...c} />
                                     </Col>
                                 )

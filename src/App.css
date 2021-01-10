@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("./Pictures/background.jpg");
 }
 
 .App-logo {
@@ -28,11 +29,21 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbo {
+  opacity: 100%;
+  height: auto;
+}
+
+.lining {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.profile-image {
+  float: left;
+}
+
+.nav-bar-right {
+  margin-right: auto !important;
 }
